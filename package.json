@@ -4,7 +4,9 @@
   "description": "React+Redux+Webpack商城H5项目",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
-    "builder-webpack-geektime": "^1.0.3"
+    "builder-webpack-geektime": "^1.0.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
